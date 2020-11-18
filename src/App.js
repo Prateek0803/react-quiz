@@ -18,7 +18,9 @@ function App() {
 
     if(currQuestion < questions.length-1)
     {
-      setCurrQuestion(currQuestion+1);
+      setTimeout(()=>{
+        setCurrQuestion(currQuestion+1);
+      },500);
     }
     else{
       setShowScore(true);
