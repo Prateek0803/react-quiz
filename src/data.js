@@ -1,39 +1,39 @@
 // Just a sample data gonna change
 export const questions = [
     {
-        questionText: 'What is the capital of France?',
+        questionText: 'What is the HTML tag under which one can write the JavaScript code?',
         answerOptions: [
-            { answerText: 'New York', isCorrect: false },
-            { answerText: 'London', isCorrect: false },
-            { answerText: 'Paris', isCorrect: true },
-            { answerText: 'Dublin', isCorrect: false },
+            { answerText: '<javascript>', isCorrect: false },
+            { answerText: '<scripted>', isCorrect: false },
+            { answerText: '<script>', isCorrect: true },
+            { answerText: '<js>', isCorrect: false },
         ],
     },
     {
-        questionText: 'Who is CEO of Tesla?',
+        questionText: 'Which of the following is the correct syntax to display “GeeksforGeeks” in an alert box using JavaScript?',
         answerOptions: [
-            { answerText: 'Jeff Bezos', isCorrect: false },
-            { answerText: 'Elon Musk', isCorrect: true },
-            { answerText: 'Bill Gates', isCorrect: false },
-            { answerText: 'Tony Stark', isCorrect: false },
+            { answerText: 'alertbox(“GeeksforGeeks”);', isCorrect: false },
+            { answerText: 'alert(“GeeksforGeeks”);', isCorrect: true },
+            { answerText: 'msgbox(“GeeksforGeeks”);', isCorrect: false },
+            { answerText: 'msg(“GeeksforGeeks”);', isCorrect: false },
         ],
     },
     {
-        questionText: 'The iPhone was created by which company?',
+        questionText: 'Which of the following is not a reserved word in JavaScript?',
         answerOptions: [
-            { answerText: 'Apple', isCorrect: true },
-            { answerText: 'Intel', isCorrect: false },
-            { answerText: 'Amazon', isCorrect: false },
-            { answerText: 'Microsoft', isCorrect: false },
+            { answerText: 'program', isCorrect: true },
+            { answerText: 'interface', isCorrect: false },
+            { answerText: 'throws', isCorrect: false },
+            { answerText: 'short', isCorrect: false },
         ],
     },
     {
-        questionText: 'How many Harry Potter books are there?',
+        questionText: 'How is the function called in JavaScript?',
         answerOptions: [
-            { answerText: '1', isCorrect: false },
-            { answerText: '4', isCorrect: false },
-            { answerText: '6', isCorrect: false },
-            { answerText: '7', isCorrect: true },
+            { answerText: 'function Geekfunc();', isCorrect: false },
+            { answerText: 'call function GeekFunc();', isCorrect: false },
+            { answerText: 'call Geekfunc();', isCorrect: false },
+            { answerText: 'Geekfunc();', isCorrect: true },
         ],
     },
 ];

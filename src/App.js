@@ -37,14 +37,14 @@ function App() {
     <div className="App">
       {showScore?(
         <div className="score-section">
-          <h2>You scored {score} out of {questions.length}</h2>
-          <button className="btn" onClick={resetHandler}>Reset</button>
+          <h2 className="score-text">You scored {score} out of {questions.length}</h2>
+          <button className="btn" onClick={resetHandler}>Try again!!</button>
         </div>
       ) : (  
           <> 
             <div className="questions-section">
               <div className="question-count">
-                <span>Question {currQuestion+1}</span>/{questions.length}
+                <span className="count-text">Question {currQuestion+1}</span>/{questions.length}
               </div>
               <div className="question-text">
                 <h2>{questions[currQuestion].questionText}</h2>

@@ -22,26 +22,32 @@ body{
   box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.75);
   display: flex;
   justify-content: space-evenly;
+  flex-direction: column;
 }
 
 .question-section{
   width: 100%;
   position: relative;
+  margin-bottom: 10px;
 }
 
 .question-count{
   margin-bottom: 10px;
 }
 
+.count-text{
+  font-size: 30px;
+  font-weight: bold;
+}
+
 .question-text{
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-size: 24px;
   color:#2B394A;
 }
 
 .answer-section{
   width: 100%;
-  margin-left:20px;
   display:flex;
   flex-direction: column;
   justify-content: space-between;
@@ -54,8 +60,7 @@ body{
   border-radius: 15px;
   color:#ffffff;
   background-color: #252d4a;
-  display: flex;
-  justify-content: flex-start;
+  display: flex;  
   padding:9px;
   align-items: center;
   border: 5px solid #234668;
@@ -83,6 +88,8 @@ button:focus{
     align-items: center;
     min-height: 100vh;
     margin-right: 20px;
+    padding:20px;
+    overflow: hidden;
   }
   .App{
     width: 100%;
@@ -98,6 +105,16 @@ button:focus{
 
   .question-text{
     text-align: center;
+    font-size: 16px;
+  }
+
+  .count-text{
+    font-size: 23px;
+    font-weight: bold;
+  }
+
+  .score-text{
+    margin-bottom: 10px;
   }
 
   .answer-section{
@@ -105,6 +122,7 @@ button:focus{
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-size: 12px;
   }
   
 }
