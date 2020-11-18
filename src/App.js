@@ -50,7 +50,7 @@ function App() {
             </div>
             <div className="answer-section">
               {questions[currQuestion].answerOptions.map((ans)=>{
-                return <button className={`${correctAns? 'btn correct':' btn incorrect'}`} onClick={()=>submitHandler(ans.isCorrect)}>{ans.answerText}</button>
+                return <button className="btn" onClick={()=>submitHandler(ans.isCorrect)}>{ans.answerText}</button>
               })}
             </div>
           </>
