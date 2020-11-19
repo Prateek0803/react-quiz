@@ -1,6 +1,8 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Live App
+link:https://prateek0803.github.io/react-quiz/
 
 ## Available Scripts
 
